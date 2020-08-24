@@ -1,0 +1,12 @@
+{
+  "name": "LinkedIn Pronoun Displayer",
+  "version": "1.0",
+  "description": "A chrome extension that displays a person's pronouns under their name when pronouns are included at the end of the name (assuming ltr name display direction).",
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["linked_in_pronoun_displayer_script.js"]
+    }
+  ],
+  "manifest_version": 2
+}
