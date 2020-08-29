@@ -8,5 +8,10 @@
       "js": ["linked_in_pronoun_displayer_script.js"]
     }
   ],
+  "icons": {
+    "16": "public/images/icon16.png",
+    "48": "public/images/icon48.png",
+    "128": "public/images/icon128.png"
+  },
   "manifest_version": 2
 }
